@@ -2,6 +2,7 @@
   "name": "appload-app-manager",
   "version": "0.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "nx serve",
     "vercel-build":"echo build",
