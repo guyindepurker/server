@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/appload-app-manager/main.js",
-    "start-dev": "nx serve",
+    "start": "nx serve",
+    "vercel-build":"echo build",
     "build": "nx build",
     "test": "nx test"
   },

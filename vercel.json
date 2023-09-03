@@ -1,9 +1,9 @@
 {
     "version": 2,
-    "builds": [
+    "rewrites": [
       {
-        "src": "dist/appload-app-manager/main.js",
-        "use": "@now/node"
+        "source": "/(.*)",
+        "destination": "/api"
       }
     ],
     "routes": [
