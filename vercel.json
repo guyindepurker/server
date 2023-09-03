@@ -1,15 +1,8 @@
 {
-    "version": 2,
     "rewrites": [
       {
         "source": "/(.*)",
         "destination": "/api"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "dist/appload-app-manager/main.js"
       }
     ]
   }
