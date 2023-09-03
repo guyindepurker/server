@@ -11,9 +11,9 @@ const app = express();
 app.use(cors());
 app.use(express.json({limit: '255mb'}));
 
-app.use(router);
+app.use('/api',router);
 
-app.get('/health', (req, res) => {
+app.get('/api/health', (req, res) => {
   res.send({ message: 'Hello API' });
 });
 
